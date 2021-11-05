@@ -121,7 +121,7 @@ hr {
 #Контакты_ссылки:hover {
 	color: gray;
 }
-@media screen and (min-width: 400px) {
+@media screen and (orientation:portrait) {
 	#Обо_мне_имг {
 		margin-left: 50px;
 		width: 90%;
