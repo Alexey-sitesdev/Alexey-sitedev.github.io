@@ -121,3 +121,24 @@ hr {
 #Контакты_ссылки:hover {
 	color: gray;
 }
+@media screen and (min-width: 400px) {
+	#Обо_мне_имг {
+		margin-left: 50px;
+		width: 90%;
+}
+	h2 {
+	margin-top: 600px;
+}
+#Текст_описание {
+	text-align: left;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+	hr {
+	width: 80%; /* ширина линии */
+	height: 3px; /* высота / толщина линии */
+	background: yellow; /* фон / цвет линии */
+	border: none; /* рамка вокруг разделительной линии (уберем ее) */
+	margin: -20px 0 30px 95px; /* отступ над и под линией 5 пикселей */
+}
